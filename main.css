@@ -1,3 +1,4 @@
+/* don't forget to edit the image height and width */
 .shape-container{
   position:relative;
   width: 1245px;
@@ -15,6 +16,7 @@
     background-image: url('https://static.pexels.com/photos/87452/flowers-background-butterflies-beautiful-87452.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
+  /* This is where you would edit using the clippy website */
   -webkit-clip-path: polygon(48% 47%, 100% 0, 0 0);
   clip-path: polygon(48% 47%, 100% 0, 0 0);
 }
